@@ -19,6 +19,7 @@ The minimum requirement of data is
 
 # DESIGN AND METHODOLOGY
 
+  
 ### Web Crawler Requests:
 A very necessary component of web scraper, web crawler module, is used to navigate the target website by making HTTP or HTTPS request to the URLs. The crawler downloads the unstructured data (HTML contents) and passes it to extractor, the next module. Here urlib3 request module is used to go to the next step.
 
@@ -50,39 +51,21 @@ MATPLOTLIB: Matplotlib is a plotting library for the Python programming language
 PANDAS: In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license.
 
 ## ANALYSIS
-1.	NO OF COLLEGES WITH ALL THE DATA AS MENTIONED
- 
-2.	NO OF COLLEGES PER STATE
- 
-3.	NO OF DISTRICT IN ONE STATE CONTAINING COLLEGES 
+### 1.	NO OF COLLEGES WITH ALL THE DATA AS MENTIONED<br /> <br />
+   <img src="https://github.com/Bhoomika2820/Python-Web-Scrapping/blob/master/df_info().PNG" width="80%"/> <br />
+### 2.	NO OF COLLEGES PER STATE<br /><br />
+   <img src="https://github.com/Bhoomika2820/Python-Web-Scrapping/blob/master/no_of_colleges_per_state.PNG" width="80%"/><br />
+### 3.	NO OF DISTRICT IN ONE STATE CONTAINING COLLEGES <br /><br />
+   <img src="https://github.com/Bhoomika2820/Python-Web-Scrapping/blob/master/no_of_district_per_state.PNG" width="80%"/><br />
+### 4. COMBINED ANALYSIS<br /><br />
+   <img src="https://github.com/Bhoomika2820/Python-Web-Scrapping/blob/master/analysis.PNG" width="80%"/><br />
 
 ## FUTURE SCOPE
 Since the websites changes dynamically some code might not work in future when the structure of the website changes .so in future we aim to rebuild this scrapper in such a way that it can scrap data when sites have changed partially or fully. For the time span our code works best in the moment and in future also this information will help company to expand their business and grow or in choosing the colleges for fresher effectively.
 ## CONCLUSION
 The extraction of data hidden web data is a major challenge nowadays because of autonomous and heterogeneous nature of hidden web content traditional stress engine has now become an ineffective way to search this kind of data. The main outcomes of this project were user friendly search interface, indexing, query processing, and effective data extraction technique based on web structure, Hidden web data need synthetic and semantic matching to fully achieve automatic integration in this thesis fully automatic and domain dependent prototype system is proposed that extract and integrate the data lying behind the search form for tpo’s. And other websites as study guides for the college details .
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-REFERENCES
+## REFERENCES
 For getting an overview how scrapping takes place: https://www.youtube.com/watch?v=mKxFfjNyj3c
 Beautiful soup documentation:
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
